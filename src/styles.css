@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 155px;
+  margin: 0 auto;
+  border: 2px;
+  background-color: rgb(201, 186, 165);
+}
+
+.title {
+  padding: 10px 0;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+}
+
+.field {
+  width: 70px;
+  size: 16px;
+  background-color: rgb(197, 171, 171);
+  padding: 45px 0;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 250px;
+  justify-content: center;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(231, 157, 157);
+}
